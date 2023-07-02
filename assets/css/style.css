@@ -1,0 +1,171 @@
+body {
+margin: 0px;
+padding: 0;
+font-family: Font;
+color: #ffffff;
+overflow-x: hidden;
+background: #000000;
+-webkit-touch-callout: none;
+user-select: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+}
+a {
+text-decoration: none;
+}
+@supports (
+  (-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px))
+) {
+  .top {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background: linear-gradient(45deg, rgba(28, 28, 30,.1) 0%, rgba(44, 44, 46,.6) 100%);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    box-shadow: 1px 2px 10px #3A3A3C;
+  }
+}
+.top h1 {
+position: fixed;
+top: 5px;
+left: 55px;
+font-size: 25px;
+}
+.top Img {
+width: 30px;
+height: 30px;
+border-radius: 50%;
+margin-left: 20px; 
+}
+@font-face {
+font-family: Framework7 Icons;
+src: url(Framework7Icons-Regular.woff2);
+}
+@font-face {
+font-family: Font;
+src: url(Font.TTF);
+}
+@supports (
+  (-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px))
+) {
+}
+.apps {	
+width: 82%;
+padding: 8px;
+border-radius: 15px;
+background: linear-gradient(45deg, rgba(28, 28, 30,.1) 0%, rgba(44, 44, 46,.6) 100%);
+height: 45px;
+margin: 11px;
+box-shadow: 1px 2px 10px rgba(76, 0, 231,.6);
+}
+.apps img {
+float: left;
+width: 45px;
+border-radius: 23.3%;
+box-shadow: 1px 2px 10px #4C00E7;
+}
+.apps h1 {
+font-size: 17px;
+color: #fff;
+text-align: justify;
+margin-top: 2px;
+margin-bottom: 0px;
+margin-left: 60px;
+}
+.apps p {
+font-size: 14px;
+font-weight: 400;
+margin-left: 60px;
+margin-top: 0px;
+margin-bottom: 0px;
+color: #e8effa;
+text-align: justify;
+}
+@supports (
+  (-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px))
+) {
+  .name {
+    position: fixed;
+    left: 0%;
+    top: 0px;
+    width: 100%;
+    height: 7%;
+    color: rgb(255,255,255,.6);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background: linear-gradient(45deg, rgba(28, 28, 30,.1) 0%, rgba(44, 44, 46,.6) 100%);
+    box-shadow: 1px 2px 10px rgba(76, 0, 231,.6);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+  }
+}
+.name h1 {
+color: #e8effa;;
+font-size: 20px;
+text-align: center;
+}
+.name a {
+text-decoration: none;
+color: #1E93FF;
+font-size: 40px;
+font-family: Framework7 Icons;
+-webkit-appearance: none;
+float: left;
+margin-top: 7px;
+margin-bottom: 0px;
+}
+.top-app {
+background: linear-gradient(45deg, rgba(28, 28, 30,.1) 0%, rgba(44, 44, 46,.6) 100%);
+padding-bottom: 15px;
+border-radius: 25px;
+width: 75%;
+margin: 10px;
+margin-bottom: 30px;
+max-width: 475px;
+display: inline-block;
+box-shadow: 1px 2px 10px #3A3A3C;
+}
+.top-app .banner {
+width: 100%;
+border-top-left-radius: 25px;
+border-top-right-radius: 25px;
+margin-bottom: 5px;
+}
+.top-app .icon {
+float: left;
+margin-left: 10px;
+width: 40px;
+height: 40px;
+border-radius: 23.3%;
+box-shadow: 1px 2px 10px #3A3A3C;
+}
+.top-app h1 {
+font-size: 17px;
+font-weight: 600;
+margin-left: 60px;
+margin-top: 3px;
+margin-bottom: 0px;
+text-align: justify;
+color: #ffffff;
+}
+.top-app p {
+font-size: 14px;
+font-weight: 400;
+margin-left: 60px;
+margin-top: 0px;
+margin-bottom: 0px;
+color: #ffffff;
+text-align: justify;
+}
+.webcount {
+visibility: hidden;
+}
