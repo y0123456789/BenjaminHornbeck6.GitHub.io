@@ -29,7 +29,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.83DBB956-DA3B-47EF-AF24-E1186FB13D4D</string>
+				<string>com.rileytestut.Delta</string>
 				<key>bundle-version</key>
 				<string>1.0</string>
 				<key>kind</key>
